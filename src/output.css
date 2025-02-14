@@ -897,6 +897,9 @@
   .gap-16 {
     gap: calc(var(--spacing) * 16);
   }
+  .gap-x-16 {
+    column-gap: calc(var(--spacing) * 16);
+  }
   .space-y-6 {
     :where(& > :not(:last-child)) {
       --tw-space-y-reverse: 0;
@@ -967,6 +970,9 @@
   }
   .bg-\[\#D2D2D2\] {
     background-color: #D2D2D2;
+  }
+  .bg-\[\#FFFFFF\] {
+    background-color: #FFFFFF;
   }
   .bg-\[\#d2d2d2\] {
     background-color: #d2d2d2;
@@ -1787,6 +1793,11 @@
       justify-content: flex-end;
     }
   }
+  .lg\:justify-start {
+    @media (width >= 64rem) {
+      justify-content: flex-start;
+    }
+  }
   .lg\:gap-1 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 1);
@@ -2011,6 +2022,12 @@
       line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
+  .lg\:text-sm {
+    @media (width >= 64rem) {
+      font-size: var(--text-sm);
+      line-height: var(--tw-leading, var(--text-sm--line-height));
+    }
+  }
   .lg\:text-xl {
     @media (width >= 64rem) {
       font-size: var(--text-xl);
@@ -2050,6 +2067,16 @@
   .lg\:text-\[12px\] {
     @media (width >= 64rem) {
       font-size: 12px;
+    }
+  }
+  .lg\:text-\[15px\] {
+    @media (width >= 64rem) {
+      font-size: 15px;
+    }
+  }
+  .lg\:text-\[16px\] {
+    @media (width >= 64rem) {
+      font-size: 16px;
     }
   }
   .lg\:text-\[17px\] {
@@ -2123,6 +2150,16 @@
   .lg\:text-\[\#0c234b\] {
     @media (width >= 64rem) {
       color: #0c234b;
+    }
+  }
+  .lg\:text-\[16\] {
+    @media (width >= 64rem) {
+      color: 16;
+    }
+  }
+  .lg\:text-\[1\] {
+    @media (width >= 64rem) {
+      color: 1;
     }
   }
   .lg\:text-\[px\] {
