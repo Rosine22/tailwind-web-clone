@@ -1130,6 +1130,9 @@
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
   }
+  .pb-\[130px\] {
+    padding-bottom: 130px;
+  }
   .pb-\[150px\] {
     padding-bottom: 150px;
   }
@@ -1138,9 +1141,6 @@
   }
   .pb-\[2\] {
     padding-bottom: 2;
-  }
-  .pb-\[130px\] {
-    padding-bottom: 130px;
   }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
@@ -1286,6 +1286,9 @@
     --tw-tracking: var(--tracking-wider);
     letter-spacing: var(--tracking-wider);
   }
+  .text-\[\#0B233F\] {
+    color: #0B233F;
+  }
   .text-\[\#0C2340\] {
     color: #0C2340;
   }
@@ -1430,6 +1433,11 @@
       @media (hover: hover) {
         color: var(--color-green-800);
       }
+    }
+  }
+  .sm\:hidden {
+    @media (width >= 40rem) {
+      display: none;
     }
   }
   .md\:mr-0 {
