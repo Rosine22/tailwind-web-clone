@@ -1160,6 +1160,9 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
+  .text-\[2px\] {
+    font-size: 2px;
+  }
   .text-\[10px\] {
     font-size: 10px;
   }
@@ -1214,9 +1217,6 @@
   .text-\[28px\] {
     font-size: 28px;
   }
-  .text-\[2px\] {
-    font-size: 2px;
-  }
   .text-\[30px\] {
     font-size: 30px;
   }
@@ -1225,6 +1225,12 @@
   }
   .text-\[33px\] {
     font-size: 33px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
+  .text-\[45px\] {
+    font-size: 45px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -1270,6 +1276,15 @@
   }
   .text-\[11\] {
     color: 11;
+  }
+  .text-\[14\] {
+    color: 14;
+  }
+  .text-\[18\] {
+    color: 18;
+  }
+  .text-\[1\] {
+    color: 1;
   }
   .text-\[23\] {
     color: 23;
